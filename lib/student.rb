@@ -66,8 +66,8 @@ class Student
     student
   end
 
-  def self.find_by_name(row)
-    student = self.find_by_name
+  def self.find_by_name(name)
+    student = self.find_by_name(name)
     student
   end
 end
